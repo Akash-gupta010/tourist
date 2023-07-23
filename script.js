@@ -1,9 +1,10 @@
 let cardImage = document.querySelector(".one_bg");
 let current = 0;
 let images = [
-  "pexels-pixabay-414017.jpg",
-  "pexels-dnd-1178784.jpg",
-  "pexels-pavel-danilyuk-8985529.jpg",
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
 ];
 
 setInterval(() => {
@@ -14,4 +15,4 @@ setInterval(() => {
     current = 0;
   }
   console.log(current);
-}, 10000);
+}, 2000);
